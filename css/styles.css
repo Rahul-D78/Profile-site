@@ -213,9 +213,15 @@ p{
      z-index: 2;
  }
  
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 300px) {
     .top-container{
         size: 100%;
+    }
+    .mountain{
+        padding-top: 600px;
+    }
+    .bottom-cloud{
+        margin-bottom: 350px;
     }
  }
 
