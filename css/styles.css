@@ -213,7 +213,13 @@ p{
      z-index: 2;
  }
  
- /* @media screen and (max-width: 990px) {
+ @media screen and (max-width: 600px) {
+    .top-container{
+        size: 100%;
+    }
+ }
+
+ @media screen and (max-width: 990px) {
      .container{
          grid-template-columns: repeat(2, 1fr);
          padding: 2rem 50px;
@@ -225,7 +231,7 @@ p{
      .container{
          grid-template-columns: 1fr;
      }
- } */
+ }
 .contact-me{
     width: 40%;
     margin: 40px auto 60px;
