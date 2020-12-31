@@ -26,6 +26,11 @@ h3{
     font-size: 1.75em;
     font-family: 'Montserrat', sans-serif;
 }
+.skill-box h3 {
+
+    color: #EAF6F6;
+
+}
 hr{
     border: dotted #EAF6F6 6px;
     border-bottom: none;
